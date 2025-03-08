@@ -69,7 +69,6 @@ public class TestModuleTwo {
         // 配列を降順にソートした場合、[-1, -2, -3, -4, -5] となる
         // 2番目に大きい要素は -2 であることを確認
         int result = module.findKthLargest(nums, k);
-        
         // 結果が期待通りであることを確認
         assertEquals(-2, result);  // 2番目に大きい要素は -2
     }
